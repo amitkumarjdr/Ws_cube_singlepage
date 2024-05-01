@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: sans-serif;
+}
+body{
+	width: 100%;
+    background-image: url('../images/waves.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main{
+	width: 1000px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	background-image: url('../images/headerbg.jpg');
+	background-size: cover;
+	border-bottom: 8px solid #0083CE;
+}
+.header_inner{
+	width: 100%;
+	background-image: url('../images/gridtile.png');
+}
+.logo{
+	width: 300px;
+	margin: auto;
+	padding: 20px 0;
+}
+.main img{
+	width: 100%;
+}
+.header_text{
+	width: 350px;
+	margin: 110px auto;
+	border: 1px solid white;
+	border-left: none;
+	border-right: none;
+	padding: 20px 0;
+}
+.main p{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+.main ul{
+	display: flex;
+	justify-content: center;	
+}
+.main ul li {
+	color: white;
+	margin: 10px 0;
+	padding: 10px;
+	border-right: 2px solid white;
+}
+.main a{
+	color: white;
+	text-decoration: underline;
+}
+.main ul li:last-child{
+	border-right: none;
+}
+.row2{
+	width: 100%;
+}
+.img_section{
+	width: 100%;
+	background-image: url('../images/3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+.overlay{
+	width: 100%;
+	background-color: #000000ab;
+	display: flex;
+	justify-content: center;
+}
+.img_section div div{
+/*	color: white;*/
+	border: 7px solid white;
+	display: inline-block;
+	font-size: 20px;
+	padding: 8px;
+	margin: 120px 0;
+    font-weight: bold;
+}
+.text_section{
+	width: 100%;
+	color: black;
+	background-color: white;
+	padding: 20px 0px;
+
+}
+.text_section>div{
+	text-align: center;
+	line-height: 25px;
+	margin: 10px 0;
+}
+.quote{
+	padding: 50px 0;
+}
+.hexaimg{
+	width: 200px;
+	padding: 20px 400px;
+}
+.text_section:last-child{
+	color: black;
+	font-size: 18px;
+	border-bottom: 2px solid white;
+}
+.row3_imgsection{
+/*	width: 100%;*/
+	background-image: url('../images/1.jpg');
+}
+.row4_imgsection{
+    background-image: url('../images/2.jpg');
+}
+.row5_imgsection{
+    background-image: url('../images/banner-7.jpg');
+}
+.row6_imgsection{
+    background-image: url('../images/4.jpg');
+}
+.main:last-child{
+	text-align: center;
+	color: white;
+	padding: 20px 0;
+	background-color: #474C4C;
+}
+html{
+	scroll-behavior: smooth;
+}
+.return{
+	text-align: center;
+	color: black;
+	text-decoration: underline;
+}
+
